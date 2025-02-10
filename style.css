@@ -1,0 +1,78 @@
+/* cmd+k+c comentar - Descomentar cmd+k+u */
+body{
+    text-align: center;
+    background-image: url(../img/fondo_espacio_negro.jpeg);
+}
+@font-face{
+    font-family: "Tetris";
+    src: url(../Font/Tetris.ttf);
+}
+h1{
+    font-size: 40px;
+    color: whitesmoke;
+    font-family:Tetris;
+}
+.gris{
+    background-color: grey;
+    border-style: outset;
+    border-color: grey;
+    border-width: thick;
+}
+.amarillo{
+    background-color: yellow;
+    border-color: yellow;
+    border-style: outset;
+    border-width: thick;
+}
+.azulClaro{
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    border-style: outset;
+    border-width: thick;
+}
+.azulOscuro{
+    background-color: blue;
+    border-color: blue;
+    border-style: outset;
+    border-width: thick;
+}
+.naranja{
+    background-color: orange;
+    border-color: orange;
+    border-style: outset;
+    border-width: thick;
+}
+.morado{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-style: outset;
+    border-width: thick;
+}
+.verde{
+    background-color: greenyellow;
+    border-color: greenyellow;
+    border-style: outset;
+    border-width: thick;
+}
+.rojo{
+    background-color: red;
+    border-color: red;
+    border-style: outset;
+    border-width: thick;
+}
+tr,td{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+}
+table{
+    /* background-color: black; */
+    background-image: url(../img/fondo_espacio_negro.jpeg);
+    margin: auto;
+}
+.textos{
+    font-family: Tetris;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 22px;
+}
